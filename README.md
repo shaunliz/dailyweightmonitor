@@ -9,6 +9,7 @@
 4. SQLite
 5. Handler (with WeakReference)
 5. Check latest version
+6. Use Admob
 
 # Used library
 Jericho parser 3.3
