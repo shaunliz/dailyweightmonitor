@@ -8,7 +8,7 @@
 3. Preference (with PreferenceFragment)
 4. SQLite
 5. Handler (with WeakReference)
-5. Check latest version
+5. Check latest version (with Jericho parser)
 6. Use Admob
 
 # Used library
