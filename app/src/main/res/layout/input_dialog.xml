@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 날짜 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/dialog_date"
+            android:textSize="17dp"/>
+
+        <!--<TextView
+            android:id="@+id/tv_date"
+            android:layout_width="140dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="80dp"
+            android:text="2015-10-27"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:background="@android:drawable/dialog_holo_light_frame"/>-->
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="140dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="80dp"
+            android:text="2015-10-27"
+            android:textSize="17dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- 체중 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/dialog_weight"
+            android:textSize="17sp"/>
+
+        <EditText
+            android:id="@+id/et_weight"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <!-- 운동 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/dialog_exercise"
+            android:textSize="17dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="59dp"/>
+
+    </LinearLayout>
+
+    <!-- 음주 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/dialog_drink"
+            android:textSize="17dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_drink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="84dp"/>
+
+    </LinearLayout>
+
+    <!-- 메모 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/dialog_memo"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/et_memo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"/>
+
+    </LinearLayout>
+    
+</LinearLayout>

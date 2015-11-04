@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:enabled="true"
+        android:title="@string/set_title_set">
+
+        <CheckBoxPreference
+            android:key="auto_input_key"
+            android:title="@string/set_auto_input_title"
+            android:summary="@string/set_auto_input_message"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:key="delet_all_key"
+            android:title="@string/set_delete_all_title"
+            android:summary="@string/set_delete_all_message"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:enabled="true"
+        android:title="@string/set_title_info">
+
+        <Preference
+            android:title="@string/set_version"
+            android:summary="@string/set_version_date"/>
+
+        <Preference
+            android:title="shaunliz.dev"
+            android:summary="shaunliz.dev@gmail.com"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

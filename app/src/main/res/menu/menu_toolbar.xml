@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_write"
+        android:title="@string/menu_input"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menu_setting"
+        android:title="@string/menu_setting"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="always"/>
+
+    <!-- 개발시만 임시로 사용함.
+    <item android:id="@+id/dev_cleartable"
+        android:title="RM DB"
+        android:icon="@android:drawable/ic_delete"
+        app:showAsAction="always"/>-->
+
+</menu>

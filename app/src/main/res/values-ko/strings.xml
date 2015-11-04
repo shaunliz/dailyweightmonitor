@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">매일매일 체중계</string>
+    <string name="toolbar_title">매일매일 체중계</string>
+    <string name="pref_toolbar_title">설정</string>
+
+    <!-- menu string -->
+    <string name="menu_input">입력</string>
+    <string name="menu_setting">설정</string>
+
+    <!-- ListView title -->
+    <string name="lv_title_date">날짜</string>
+    <string name="lv_title_weight">체중</string>
+    <string name="lv_title_exercise">운동</string>
+    <string name="lv_title_drink">음주</string>
+    <string name="lv_title_memo">메모</string>
+
+    <!-- Input Dialog -->
+    <string name="dialog_title">체중입력</string>
+    <string name="dialog_date">날짜</string>
+    <string name="dialog_weight">체중</string>
+    <string name="dialog_exercise">운동</string>
+    <string name="dialog_drink">음주</string>
+    <string name="dialog_memo">메모</string>
+    <string name="dialog_btn_cancel">취소</string>
+    <string name="dialog_btn_confirm">확인</string>
+    <string name="dialog_btn_edit">수정</string>
+
+    <!-- Message -->
+    <string name="msg_onemorepress">\'뒤로\' 버튼을 한번 더 눌러서 종료하세요</string>
+    <string name="delete_all_title">데이터 삭제</string>
+    <string name="delete_all_message">데이터가 모두 삭제 됩니다. 계속 하시겠습니까?</string>
+
+    <!-- Settings -->
+    <string name="set_title_set">설정</string>
+    <string name="set_title_info">정보</string>
+    <string name="set_auto_input_title">자동 입력창</string>
+    <string name="set_auto_input_message">어플 시작시 자동으로 입력창 열기</string>
+    <string name="set_delete_all_title">전체 삭제</string>
+    <string name="set_delete_all_message">전체 데이터를 삭제 합니다.</string>
+    <string name="set_information">정보</string>
+    <string name="set_version">버전 1.0.0</string>
+    <string name="set_version_date">2015년 11월 5일</string>
+
+    <!-- Upgrade Dialog -->
+    <string name="upgrade_title">매일매일 체중계</string>
+    <string name="upgrade_msg">새로운 버전이 나왔습니다. 업그레이드 하시겠습니까?</string>
+</resources>
